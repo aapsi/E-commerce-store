@@ -10,6 +10,7 @@ export default async function handler(req, res) {
         mode: 'payment',
         payment_method_types: ['card'],
         billing_address_collection: 'auto',
+        // shipping charges can be added
         // shipping_options: [
         //   { shipping_rate: 'shr_1NcT8uSCOc3BJlTXvEu3En1r'},
         // ],
