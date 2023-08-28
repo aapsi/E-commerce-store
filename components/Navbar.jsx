@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <div className="navbar-container">
-      <p className="logo font-bold">
-        <Link href="/">Beat Box</Link>
+      <p className="logo-nav font-bold text-black">
+        <Link href="/">B  E  A  T   B  O  X </Link>
       </p>
 
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
